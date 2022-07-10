@@ -76,7 +76,6 @@ class Category:
 
 
 def create_spend_chart(categories):
-    cat_no = len(categories)
     spent = []
     total_spent = 0
     for cat in categories:
